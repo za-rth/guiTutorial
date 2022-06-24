@@ -60,7 +60,7 @@ public class guiTutorial implements ActionListener {
         String password = passwordText.getText();
         System.out.println("Did It WORK?");
 
-        if (user.equals("ZA") && password.equals("Asentista")){
+        if (user.equals("default") && password.equals("default")){
             success.setText("You FINISHED IT!");
         }
     }
